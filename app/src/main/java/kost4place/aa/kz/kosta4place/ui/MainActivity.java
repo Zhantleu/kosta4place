@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public class TimerTaskViewPager extends TimerTask {
-
+//todo ОБНОВА ПИЗЛДУЦ
         @Override
         public void run() {
             MainActivity.this.runOnUiThread(new Runnable() {
@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     }else if (mPager.getCurrentItem() == 2) {
                         mPager.setCurrentItem(3);
                     }
+
                 }
             });
         }

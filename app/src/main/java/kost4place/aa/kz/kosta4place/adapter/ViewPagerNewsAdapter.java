@@ -53,6 +53,7 @@ public class ViewPagerNewsAdapter extends PagerAdapter {
                     Toast.makeText(context, "3", Toast.LENGTH_SHORT).show();
                 }
 
+
             }
         });
 
