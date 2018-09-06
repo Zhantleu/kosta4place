@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,6 +9,16 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="200sp"
-        app:srcCompat="@drawable/tux"
-        android:contentDescription="@string/app_name"/>
-</LinearLayout>
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/tux" />
+
+    <LinearLayout
+        android:id="@+id/sliderDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewPager"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</RelativeLayout>
