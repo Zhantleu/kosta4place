@@ -1,25 +1,14 @@
 package kost4place.aa.kz.kosta4place.ui;
 
-import android.content.Context;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.viewpagerindicator.CirclePageIndicator;
-
-import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.ViewPagerNewsAdapter;
@@ -30,8 +19,6 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private LinearLayout sliderDots;
     private int dotsCount;
     private ImageView[] dots;
-
-    private String nameClass = MainActivity.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

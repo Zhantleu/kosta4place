@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Kosta4Place</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="cafe">Cafe</string>
+    <string name="shops">Shops</string>
+    <string name="spa">Spa</string>
+    <string name="hostel">Hostel</string>
+    <string name="hookah">Hookah</string>
+
+
 </resources>
