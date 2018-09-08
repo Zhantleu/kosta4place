@@ -10,13 +10,16 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 import kost4place.aa.kz.kosta4place.R;
 
 public class ViewPagerNewsAdapter extends PagerAdapter {
     private Context context;
     private LayoutInflater inflater;
-    private Integer[] myImageList = {R.drawable.tux, R.drawable.tux,
-            R.drawable.tux};
+    private String[] urlImgObject = {"https://24freelance.net/files/uploads/gallery/2016-07/1468901870_7e60b603b7aec94db563e18d4d073844_naruzhnyy-banner.jpg",
+                                     "https://gif.cmtt.space/3/paper-media/t/trust-bank/f5e7b6e469a9b6130715.jpg",
+                                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvjWwo5xjdGoRevRMm-Pl9hobV9QoPtsYfWBH-_XFC-X6J0B75A"};
 
     public ViewPagerNewsAdapter(Context context) {
         this.context = context;
@@ -24,7 +27,7 @@ public class ViewPagerNewsAdapter extends PagerAdapter {
 
     @Override
     public int getCount() {
-        return myImageList.length;
+        return urlImgObject.length;
     }
 
     @Override
@@ -39,7 +42,12 @@ public class ViewPagerNewsAdapter extends PagerAdapter {
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.special_slide_layout, null);
         ImageView imgView = view.findViewById(R.id.imageView);
-        imgView.setImageResource(myImageList[position]);
+
+        Picasso.get()
+                .load(urlImgObject[position])
+                .placeholder(R.drawable.download_icon)
+                .error(R.drawable.error_icon)
+                .into(imgView);
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,12 +55,11 @@ public class ViewPagerNewsAdapter extends PagerAdapter {
 
                 if (position == 0) {
                     Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                }else if (position == 1) {
+                } else if (position == 1) {
                     Toast.makeText(context, "2", Toast.LENGTH_SHORT).show();
-                }else if (position == 2) {
+                } else if (position == 2) {
                     Toast.makeText(context, "3", Toast.LENGTH_SHORT).show();
                 }
-
 
             }
         });

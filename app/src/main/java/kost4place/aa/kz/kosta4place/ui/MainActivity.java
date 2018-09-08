@@ -13,7 +13,7 @@ import java.util.TimerTask;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.ViewPagerNewsAdapter;
 
-public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
+public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener {
     private static ViewPager mPager;
     private ViewPagerNewsAdapter viewPagerNewsAdapter;
     private LinearLayout sliderDots;
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     @Override
     public void onPageSelected(int position) {
         for (int i = 0; i < dots.length; i++) {
-        dots[i].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.noactive_dot));
+            dots[i].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.noactive_dot));
         }
 
         dots[position].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.active_dot));
