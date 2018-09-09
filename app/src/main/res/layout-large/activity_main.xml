@@ -29,56 +29,57 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="60dp"
         android:background="@drawable/btn_rounded_corner"
         android:text="@string/restaurant" />
 
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="35dp"
+        android:layout_marginEnd="60dp"
         android:text="@string/cafe" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
+        android:layout_width="199dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/button"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="209dp"
         android:text="@string/shops" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_alignStart="@+id/button2"
         android:layout_alignTop="@+id/button3"
+        android:layout_marginEnd="43dp"
         android:text="@string/spa" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button"
-        android:layout_alignTop="@+id/button6"
+        android:layout_marginBottom="58dp"
         android:text="@string/hostel" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="110dp"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_alignStart="@+id/button2"
-        android:layout_marginBottom="14dp"
+        android:layout_alignTop="@+id/button5"
         android:text="@string/hookah" />
 
 </RelativeLayout>
