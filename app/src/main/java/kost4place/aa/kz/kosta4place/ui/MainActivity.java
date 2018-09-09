@@ -1,15 +1,19 @@
 package kost4place.aa.kz.kosta4place.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
+import kost4place.aa.kz.kosta4place.Categories;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.ViewPagerNewsAdapter;
 
@@ -24,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button button = (Button) findViewById(R.id.button);
 
         sliderDots = findViewById(R.id.sliderDots);
         mPager = findViewById(R.id.viewPager);
@@ -41,6 +46,13 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTaskViewPager(), 2000, 4000);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Categories.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setSliderDots() {
