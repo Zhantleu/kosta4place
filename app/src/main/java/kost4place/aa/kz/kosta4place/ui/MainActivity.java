@@ -1,24 +1,30 @@
 package kost4place.aa.kz.kosta4place.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
+import kost4place.aa.kz.kosta4place.Categories;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.ViewPagerNewsAdapter;
 
-public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener {
+public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener, View.OnClickListener {
     private static ViewPager mPager;
     private ViewPagerNewsAdapter viewPagerNewsAdapter;
     private LinearLayout sliderDots;
     private int dotsCount;
     private ImageView[] dots;
+
+    private Button mBtnRestaurant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         sliderDots = findViewById(R.id.sliderDots);
         mPager = findViewById(R.id.viewPager);
+        mBtnRestaurant = findViewById(R.id.button_restaurant);
+
+        mBtnRestaurant.setOnClickListener(this);
 
         viewPagerNewsAdapter = new ViewPagerNewsAdapter(this);
         mPager.setAdapter(viewPagerNewsAdapter);
@@ -55,6 +64,16 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
             sliderDots.addView(dots[i], params);
         }
         dots[0].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.active_dot));
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.button_restaurant:
+                Intent intent = new Intent(this, Categories.class);
+                startActivity(intent);
+                break;
+        }
     }
 
     public class TimerTaskViewPager extends TimerTask {

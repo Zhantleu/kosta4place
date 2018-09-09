@@ -28,7 +28,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_restaurant"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
@@ -51,7 +51,7 @@
         android:id="@+id/button3"
         android:layout_width="199dp"
         android:layout_height="80dp"
-        android:layout_alignEnd="@+id/button"
+        android:layout_alignEnd="@+id/button_restaurant"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="209dp"
         android:text="@string/shops" />
@@ -70,7 +70,7 @@
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignStart="@+id/button_restaurant"
         android:layout_marginBottom="58dp"
         android:text="@string/hostel" />
 
