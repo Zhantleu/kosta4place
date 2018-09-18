@@ -13,11 +13,10 @@ import android.widget.LinearLayout;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import kost4place.aa.kz.kosta4place.Categories;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.ViewPagerNewsAdapter;
 
-public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener, View.OnClickListener {
+public class HomePage extends AppCompatActivity implements ViewPager.OnPageChangeListener, View.OnClickListener {
     private static ViewPager mPager;
     private ViewPagerNewsAdapter viewPagerNewsAdapter;
     private LinearLayout sliderDots;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.button);
+//        Button button = (Button) findViewById(R.id.button);
 
         sliderDots = findViewById(R.id.sliderDots);
         mPager = findViewById(R.id.viewPager);
@@ -51,13 +50,13 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTaskViewPager(), 2000, 4000);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Categories.class);
-                startActivity(intent);
-            }
-        });
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(HomePage.this, Categories.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 
     private void setSliderDots() {
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     public class TimerTaskViewPager extends TimerTask {
         @Override
         public void run() {
-            MainActivity.this.runOnUiThread(new Runnable() {
+            HomePage.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
                     if (mPager.getCurrentItem() == 0) {

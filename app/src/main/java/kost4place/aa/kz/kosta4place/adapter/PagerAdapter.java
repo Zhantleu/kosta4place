@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import kost4place.aa.kz.kosta4place.Tab1;
-import kost4place.aa.kz.kosta4place.Tab2;
-import kost4place.aa.kz.kosta4place.Tab3;
+import kost4place.aa.kz.kosta4place.fragments.Tab1;
+import kost4place.aa.kz.kosta4place.fragments.Tab2;
+import kost4place.aa.kz.kosta4place.fragments.Tab3;
 
 public class PagerAdapter extends FragmentStatePagerAdapter {
 

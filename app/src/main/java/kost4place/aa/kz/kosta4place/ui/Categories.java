@@ -1,4 +1,4 @@
-package kost4place.aa.kz.kosta4place;
+package kost4place.aa.kz.kosta4place.ui;
 
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
@@ -6,7 +6,11 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TableLayout;
+
+import kost4place.aa.kz.kosta4place.R;
+import kost4place.aa.kz.kosta4place.fragments.Tab1;
+import kost4place.aa.kz.kosta4place.fragments.Tab2;
+import kost4place.aa.kz.kosta4place.fragments.Tab3;
 
 public class Categories extends AppCompatActivity implements Tab1.OnFragmentInteractionListener,Tab2.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener {
 

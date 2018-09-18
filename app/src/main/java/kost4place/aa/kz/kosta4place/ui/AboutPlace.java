@@ -1,9 +1,11 @@
-package kost4place.aa.kz.kosta4place;
+package kost4place.aa.kz.kosta4place.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Place_information extends AppCompatActivity {
+import kost4place.aa.kz.kosta4place.R;
+
+public class AboutPlace extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
