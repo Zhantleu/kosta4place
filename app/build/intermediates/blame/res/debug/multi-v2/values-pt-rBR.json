@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/aydos/Desktop/kosta4place/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\Aydos\\Desktop\\projects\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/home/aydos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e9154ad3e6a57762115da6f7f1d97d94/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c4a7ab1da4e718ab2bce7dbeb548a460\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/aydos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6c93276c51083c87f99861b84f27c91a/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46979250fac880b662f51fbf8474a37d\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

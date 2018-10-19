@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/gradient_background"
-    tools:context="kost4place.aa.kz.kosta4place.ui.HomePage">
+    tools:context="kost4place.aa.kz.kosta4place.activities.HomePage">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"

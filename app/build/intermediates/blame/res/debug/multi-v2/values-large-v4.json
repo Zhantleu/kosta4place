@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/aydos/Desktop/kosta4place/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "C:\\Users\\Aydos\\Desktop\\projects\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "/home/aydos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6c93276c51083c87f99861b84f27c91a/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46979250fac880b662f51fbf8474a37d\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

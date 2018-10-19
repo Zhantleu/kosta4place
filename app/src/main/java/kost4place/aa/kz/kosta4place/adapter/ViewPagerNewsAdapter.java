@@ -17,9 +17,57 @@ import kost4place.aa.kz.kosta4place.R;
 public class ViewPagerNewsAdapter extends PagerAdapter {
     private Context context;
     private LayoutInflater inflater;
+
+    private ImageView imgView;
+    private View view;
+
     private String[] urlImgObject = {"https://24freelance.net/files/uploads/gallery/2016-07/1468901870_7e60b603b7aec94db563e18d4d073844_naruzhnyy-banner.jpg",
-                                     "https://gif.cmtt.space/3/paper-media/t/trust-bank/f5e7b6e469a9b6130715.jpg",
-                                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvjWwo5xjdGoRevRMm-Pl9hobV9QoPtsYfWBH-_XFC-X6J0B75A"};
+            "https://gif.cmtt.space/3/paper-media/t/trust-bank/f5e7b6e469a9b6130715.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvjWwo5xjdGoRevRMm-Pl9hobV9QoPtsYfWBH-_XFC-X6J0B75A"};
+
+
+    @NonNull
+    @Override
+    public Object instantiateItem(@NonNull ViewGroup container, final int position) {
+
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        view = inflater.inflate(R.layout.special_slide_layout, null);
+        imgView = view.findViewById(R.id.imageView);
+
+
+        initPicasso(position);
+
+        view.setOnClickListener(view1 -> {
+
+            if (position == 0) {
+                Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+            } else if (position == 1) {
+                Toast.makeText(context, "2", Toast.LENGTH_SHORT).show();
+            } else if (position == 2) {
+                Toast.makeText(context, "3", Toast.LENGTH_SHORT).show();
+            }
+
+        });
+
+        ViewPager vp = (ViewPager) container;
+        vp.addView(view, 0);
+        return view;
+    }
+
+    @Override
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
+        ViewPager vp = (ViewPager) container;
+        View view = (View) object;
+        vp.removeView(view);
+    }
+
+    private void initPicasso(int position) {
+        Picasso.get()
+                .load(urlImgObject[position])
+                .placeholder(R.drawable.download_icon)
+                .error(R.drawable.error_icon)
+                .into(imgView);
+    }
 
     public ViewPagerNewsAdapter(Context context) {
         this.context = context;
@@ -33,46 +81,5 @@ public class ViewPagerNewsAdapter extends PagerAdapter {
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
         return view == object;
-    }
-
-    @NonNull
-    @Override
-    public Object instantiateItem(@NonNull ViewGroup container, final int position) {
-
-        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.special_slide_layout, null);
-        ImageView imgView = view.findViewById(R.id.imageView);
-
-        Picasso.get()
-                .load(urlImgObject[position])
-                .placeholder(R.drawable.download_icon)
-                .error(R.drawable.error_icon)
-                .into(imgView);
-
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                if (position == 0) {
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                } else if (position == 1) {
-                    Toast.makeText(context, "2", Toast.LENGTH_SHORT).show();
-                } else if (position == 2) {
-                    Toast.makeText(context, "3", Toast.LENGTH_SHORT).show();
-                }
-
-            }
-        });
-
-        ViewPager vp = (ViewPager) container;
-        vp.addView(view, 0);
-        return view;
-    }
-//Hello
-    @Override
-    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        ViewPager vp = (ViewPager) container;
-        View view = (View) object;
-        vp.removeView(view);
     }
 }
