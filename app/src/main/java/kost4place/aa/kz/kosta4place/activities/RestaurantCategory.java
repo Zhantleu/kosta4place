@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import org.reactivestreams.Subscriber;
+
 import java.util.List;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -13,11 +15,12 @@ import io.reactivex.schedulers.Schedulers;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
 import kost4place.aa.kz.kosta4place.api.KostaBasicApi;
+import kost4place.aa.kz.kosta4place.dao.DatabaseCallback;
 import kost4place.aa.kz.kosta4place.model.Place;
 import kost4place.aa.kz.kosta4place.service.KostaServiceRetrofit;
 import retrofit2.Retrofit;
 
-public class RestaurantCategory extends AppCompatActivity {
+public class RestaurantCategory extends AppCompatActivity implements DatabaseCallback {
 
     private KostaBasicApi kostaBasicApi;
     private RecyclerView recyclerView_posts;
@@ -56,5 +59,20 @@ public class RestaurantCategory extends AppCompatActivity {
     protected void onStop() {
         compositeDisposable.clear();
         super.onStop();
+    }
+
+    @Override
+    public void onPlacesLoaded(List<Place> users) {
+
+    }
+
+    @Override
+    public void onDataNotAvailable() { // don't need
+
+    }
+
+    @Override
+    public void onPlaceAdded() { // don't need
+
     }
 }

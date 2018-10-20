@@ -24,6 +24,7 @@
 
         <activity android:name=".activities.AboutPlace"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.ExampleActivity" />
     </application>
 
 </manifest>

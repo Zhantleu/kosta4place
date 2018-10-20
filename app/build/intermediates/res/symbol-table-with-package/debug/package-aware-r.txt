@@ -854,6 +854,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_add
+id btn_fetch
 id button2
 id button3
 id button4
@@ -891,6 +893,9 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_firstname
+id et_lastname
+id et_location
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -917,6 +922,7 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id location
@@ -944,6 +950,7 @@ id placeTitle
 id progress_circular
 id progress_horizontal
 id radio
+id recycler
 id recycler_posts
 id right
 id right_icon
@@ -991,6 +998,7 @@ id submenuarrow
 id submit_area
 id tabMode
 id tag_transition_group
+id testbut
 id text
 id text2
 id textSpacerNoButtons
@@ -1057,6 +1065,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main1
 layout activity_place_information
 layout activity_restaurant_category
 layout design_bottom_navigation_item

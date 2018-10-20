@@ -24,6 +24,7 @@ public class HomePage extends AppCompatActivity implements ViewPager.OnPageChang
     private ImageView[] dots;
 
     private Button mBtnRestaurant;
+    private Button test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class HomePage extends AppCompatActivity implements ViewPager.OnPageChang
         init();
 
         mBtnRestaurant.setOnClickListener(this);
+        test.setOnClickListener(this);
 
         viewPagerNewsAdapter = new ViewPagerNewsAdapter(this);
         mPager.setAdapter(viewPagerNewsAdapter);
@@ -70,22 +72,23 @@ public class HomePage extends AppCompatActivity implements ViewPager.OnPageChang
                 Intent intent = new Intent(this, RestaurantCategory.class);
                 startActivity(intent);
                 break;
+            case R.id.testbut:
+                Intent intent1 = new Intent(this, ExampleActivity.class);
+                startActivity(intent1);
+                break;
         }
     }
 
     public class TimerTaskViewPager extends TimerTask {
         @Override
         public void run() {
-            HomePage.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    if (mPager.getCurrentItem() == 0) {
-                        mPager.setCurrentItem(1);
-                    } else if (mPager.getCurrentItem() == 1) {
-                        mPager.setCurrentItem(2);
-                    } else if (mPager.getCurrentItem() == 2) {
-                        mPager.setCurrentItem(0);
-                    }
+            HomePage.this.runOnUiThread(() -> {
+                if (mPager.getCurrentItem() == 0) {
+                    mPager.setCurrentItem(1);
+                } else if (mPager.getCurrentItem() == 1) {
+                    mPager.setCurrentItem(2);
+                } else if (mPager.getCurrentItem() == 2) {
+                    mPager.setCurrentItem(0);
                 }
             });
         }
@@ -114,5 +117,6 @@ public class HomePage extends AppCompatActivity implements ViewPager.OnPageChang
         sliderDots = findViewById(R.id.sliderDots);
         mPager = findViewById(R.id.viewPager);
         mBtnRestaurant = findViewById(R.id.button_restaurant);
+        test = findViewById(R.id.testbut);
     }
 }
