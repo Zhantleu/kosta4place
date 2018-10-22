@@ -5,24 +5,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import org.reactivestreams.Subscriber;
-
 import java.util.List;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
-import kost4place.aa.kz.kosta4place.api.KostaBasicApi;
-import kost4place.aa.kz.kosta4place.dao.DatabaseCallback;
+import kost4place.aa.kz.kosta4place.remote.api.KostaApi;
+import kost4place.aa.kz.kosta4place.local.data.PlaceORM;
 import kost4place.aa.kz.kosta4place.model.Place;
-import kost4place.aa.kz.kosta4place.service.KostaServiceRetrofit;
-import retrofit2.Retrofit;
+import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
 
-public class RestaurantCategory extends AppCompatActivity implements DatabaseCallback {
+public class RestaurantCategory extends AppCompatActivity {
 
-    private KostaBasicApi kostaBasicApi;
+    private KostaApi kostaApi;
+    private PlaceORM placeORM;
     private RecyclerView recyclerView_posts;
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
 
@@ -31,20 +30,38 @@ public class RestaurantCategory extends AppCompatActivity implements DatabaseCal
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant_category);
 
-        //Init
-        Retrofit retrofit = KostaServiceRetrofit.getInstance();
-        kostaBasicApi = retrofit.create(KostaBasicApi.class);
-
         //View
         recyclerView_posts = findViewById(R.id.recycler_posts);
         recyclerView_posts.setHasFixedSize(true);
         recyclerView_posts.setLayoutManager(new LinearLayoutManager((this)));
 
-        fetchData();
+//        fetchData();
+
+        PlaceRepository placeRepository = new PlaceRepository();
+        placeRepository.getPlaces(getApplicationContext())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+//                .doOnNext(place -> fetchData())
+                .subscribeWith(new DisposableObserver<List<Place>>() {
+                    @Override
+                    public void onNext(List<Place> places) {
+                        displayData(places);
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+                });
     }
 
     private void fetchData() {
-        compositeDisposable.add(kostaBasicApi.getPlace()
+        compositeDisposable.add(kostaApi.getPlace()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(this::displayData));
@@ -59,20 +76,5 @@ public class RestaurantCategory extends AppCompatActivity implements DatabaseCal
     protected void onStop() {
         compositeDisposable.clear();
         super.onStop();
-    }
-
-    @Override
-    public void onPlacesLoaded(List<Place> users) {
-
-    }
-
-    @Override
-    public void onDataNotAvailable() { // don't need
-
-    }
-
-    @Override
-    public void onPlaceAdded() { // don't need
-
     }
 }

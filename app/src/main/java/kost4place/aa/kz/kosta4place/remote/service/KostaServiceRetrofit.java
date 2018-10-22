@@ -1,4 +1,4 @@
-package kost4place.aa.kz.kosta4place.service;
+package kost4place.aa.kz.kosta4place.remote.service;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
@@ -22,9 +22,4 @@ public class KostaServiceRetrofit {
     private KostaServiceRetrofit() {
 
     }
-//    public Observable<String> returnPlace() { // Преобразовать и вернуть стринг
-//        return api.getPlace()
-//                .flatMapIterable(x -> x)
-//                .distinct();
-//    }
 }
