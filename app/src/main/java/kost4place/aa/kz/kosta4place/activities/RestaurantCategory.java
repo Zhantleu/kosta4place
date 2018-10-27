@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import java.util.List;
 
@@ -41,23 +42,9 @@ public class RestaurantCategory extends AppCompatActivity {
         placeRepository.getPlaces(getApplicationContext())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-//                .doOnNext(place -> fetchData())
-                .subscribeWith(new DisposableObserver<List<Place>>() {
-                    @Override
-                    public void onNext(List<Place> places) {
-                        displayData(places);
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-
-                    }
-
-                    @Override
-                    public void onComplete() {
-
-                    }
-                });
+                .doOnNext(place -> {
+                    displayData(place);
+                }).subscribe();
     }
 
     private void fetchData() {
