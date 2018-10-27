@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aydos\\Desktop\\git\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aydos\\Desktop\\git\\kosta4place\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
+                        "startLines": "12,1,3,10,7,6,2,4,5,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "494,17,118,382,278,235,67,157,198,453",
+                        "endColumns": "41,48,37,69,41,41,49,39,35,39",
+                        "endOffsets": "531,61,151,447,315,272,112,192,229,488"
                     },
                     "to": {
-                        "startLines": "159,160,161",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "8128,8174,8221",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "8169,8216,8267"
+                        "startLines": "788,818,821,823,824,825,831,833,834,836",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "65954,68115,68430,68555,68625,68667,69524,69627,69667,69774",
+                        "endColumns": "41,48,37,69,41,41,49,39,35,39",
+                        "endOffsets": "65991,68159,68463,68620,68662,68704,69569,69662,69698,69809"
                     }
                 },
                 {
@@ -59,20 +59,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aydos\\Desktop\\git\\kosta4place\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "114,57",
-                        "endColumns": "57,55",
-                        "endOffsets": "167,108"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
                     },
                     "to": {
-                        "startLines": "661,662",
-                        "startColumns": "4,4",
-                        "startOffsets": "58241,58299",
-                        "endColumns": "57,55",
-                        "endOffsets": "58294,58350"
+                        "startLines": "159,160,161",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "8128,8174,8221",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "8169,8216,8267"
                     }
                 },
                 {
@@ -90,6 +90,25 @@
                         "startOffsets": "10323,159468,159644,159766,160028,160223",
                         "endColumns": "88,65,121,60,65,66",
                         "endOffsets": "10407,159529,159761,159822,160089,160285"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,382",
+                        "endLines": "7,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "372,654"
+                    },
+                    "to": {
+                        "startLines": "846,2077",
+                        "startColumns": "4,4",
+                        "startOffsets": "70543,150406",
+                        "endLines": "851,2081",
+                        "endColumns": "12,12",
+                        "endOffsets": "70855,150674"
                     }
                 },
                 {
@@ -150,25 +169,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aydos\\Desktop\\git\\kosta4place\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,382",
-                        "endLines": "7,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "372,654"
-                    },
-                    "to": {
-                        "startLines": "846,2077",
-                        "startColumns": "4,4",
-                        "startOffsets": "70543,150406",
-                        "endLines": "851,2081",
-                        "endColumns": "12,12",
-                        "endOffsets": "70855,150674"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\0fde0dbf2a7e7dcc2bdf973a101ce4d5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,18,20,23",
@@ -222,20 +222,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aydos\\Desktop\\git\\kosta4place\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "12,1,3,10,7,6,2,4,5,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "494,17,118,382,278,235,67,157,198,453",
-                        "endColumns": "41,48,37,69,41,41,49,39,35,39",
-                        "endOffsets": "531,61,151,447,315,272,112,192,229,488"
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "114,57",
+                        "endColumns": "57,55",
+                        "endOffsets": "167,108"
                     },
                     "to": {
-                        "startLines": "788,818,821,823,824,825,831,833,834,836",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "65954,68115,68430,68555,68625,68667,69524,69627,69667,69774",
-                        "endColumns": "41,48,37,69,41,41,49,39,35,39",
-                        "endOffsets": "65991,68159,68463,68620,68662,68704,69569,69662,69698,69809"
+                        "startLines": "661,662",
+                        "startColumns": "4,4",
+                        "startOffsets": "58241,58299",
+                        "endColumns": "57,55",
+                        "endOffsets": "58294,58350"
                     }
                 }
             ]

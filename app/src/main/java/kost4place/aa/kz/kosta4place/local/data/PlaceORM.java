@@ -30,21 +30,19 @@ public class PlaceORM implements PlaceDao {
         return _instance;
     }
 
+    public Completable insertAll(List<Place> place) {
+        return Completable.fromAction(() -> {
+            insert(place);
+        });
+    }
+
     @Override
     public Flowable<List<Place>> getAll() {
-        Flowable<List<Place>> flowable = db.placeDao().getAll();
-
-        return flowable;
+        return db.placeDao().getAll();
     }
 
     @Override
     public void insert(List<Place> place) {
         db.placeDao().insert(place);
-    }
-
-    public Completable insertAll(List<Place> place) {
-        return Completable.fromAction(() -> {
-            insert(place);
-        });
     }
 }

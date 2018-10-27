@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class KostaServiceRetrofit {
+public class ServiceRetrofit {
     private static final String BASE_URL = "http://52.59.190.133:8080/api-1.0-SNAPSHOT/";
     private static Retrofit ourInstance;
 
@@ -19,7 +19,7 @@ public class KostaServiceRetrofit {
         return ourInstance;
     }
 
-    private KostaServiceRetrofit() {
+    private ServiceRetrofit() {
 
     }
 }
