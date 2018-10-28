@@ -68,8 +68,7 @@
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:src="@drawable/restaurant"
-                    android:text="@string/restaurant" />
+                    android:src="@drawable/restaurant" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -105,8 +104,7 @@
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:src="@drawable/cafe"
-                    android:text="@string/restaurant" />
+                    android:src="@drawable/cafe" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -124,6 +122,13 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/shops"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,13 +136,12 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button_shop"
-                    android:layout_width="110dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                <ImageView
+                    android:id="@+id/shop"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:text="@string/shops" />
+                    android:src="@drawable/shop" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -154,6 +158,13 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/spa"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -161,13 +172,12 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button_spa"
-                    android:layout_width="110dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                <ImageView
+                    android:id="@+id/spa"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:text="@string/spa" />
+                    android:src="@drawable/spa" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -185,6 +195,13 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hostel"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -192,13 +209,12 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button_hostel"
-                    android:layout_width="110dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                <ImageView
+                    android:id="@+id/hostel"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:text="@string/hostel" />
+                    android:src="@drawable/hostel" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -215,6 +231,13 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hookah"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -222,13 +245,12 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button_hookah"
-                    android:layout_width="110dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                <ImageView
+                    android:id="@+id/hookah"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/btn_rounded_corner"
-                    android:text="@string/hookah" />
+                    android:src="@drawable/hookah" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
