@@ -34,6 +34,7 @@ public class RestaurantCategory extends AppCompatActivity {
         fetchData();
     }
 
+    //Error when the activity try to get a information without API
     private void fetchData() {
         compositeDisposable.add(placeRepository.getPlaces(getApplicationContext())
                 .subscribeOn(Schedulers.io())

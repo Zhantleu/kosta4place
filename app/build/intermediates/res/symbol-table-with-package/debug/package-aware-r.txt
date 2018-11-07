@@ -796,6 +796,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable gradient_background
+drawable hookah
+drawable hostel
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable navigation_empty_icon
@@ -812,6 +814,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable restaurant
+drawable shop
+drawable spa
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -842,6 +846,7 @@ id actions
 id activity_chooser_view_content
 id activity_main
 id add
+id addressEditText
 id alertTitle
 id all
 id always
@@ -851,19 +856,13 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btn_add
-id btn_fetch
 id button2
 id button3
 id button4
 id button5
 id button6
 id buttonPanel
-id button_hookah
-id button_hostel
 id button_restaurant
-id button_shop
-id button_spa
 id cancel_action
 id center
 id center_horizontal
@@ -871,9 +870,11 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clearButton
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id connectButton
 id container
 id contentPanel
 id coordinator
@@ -894,9 +895,6 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id et_firstname
-id et_lastname
-id et_location
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -910,6 +908,8 @@ id gone
 id groups
 id home
 id homeAsUp
+id hookah
+id hostel
 id icon
 id icon_group
 id ifRoom
@@ -923,10 +923,8 @@ id largeLabel
 id left
 id line1
 id line3
-id linearLayout
 id listMode
 id list_item
-id location
 id masked
 id media_actions
 id message
@@ -948,11 +946,12 @@ id parent_matrix
 id percent
 id pin
 id placeTitle
+id portEditText
 id progress_circular
 id progress_horizontal
 id radio
-id recycler
 id recycler_posts
+id responseTextView
 id right
 id right_icon
 id right_side
@@ -976,6 +975,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id shop
 id shortcut
 id showCustom
 id showHome
@@ -985,6 +985,7 @@ id smallLabel
 id snackbar_action
 id snackbar_text
 id snap
+id spa
 id spacer
 id split_action_bar
 id spread
@@ -1067,7 +1068,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_main1
 layout activity_place_information
 layout activity_restaurant_category
 layout design_bottom_navigation_item
@@ -1103,6 +1103,7 @@ layout post_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout socket_example
 layout special_slide_layout
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher

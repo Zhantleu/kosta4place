@@ -19,6 +19,5 @@ public class PostViewHolder extends RecyclerView.ViewHolder {
 
         txt_content = itemView.findViewById(R.id.info);
         txt_title = itemView.findViewById(R.id.placeTitle);
-        txt_location = itemView.findViewById(R.id.location);
     }
 }

@@ -15,31 +15,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/placeTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
                 android:text="placeTitle"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="info"
-                android:textSize="16sp"
-                android:textStyle="normal" />
 
-            <TextView
-                android:id="@+id/location"
+            <ImageView
+                android:layout_marginStart="100dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="location"
-                android:textSize="14sp"
-                android:textStyle="italic" />
+                android:src="@drawable/hookah" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
