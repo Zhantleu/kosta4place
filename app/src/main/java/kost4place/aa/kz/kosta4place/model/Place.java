@@ -21,10 +21,14 @@ public class Place {
     @ColumnInfo(name = "location")
     private String location;
 
-    public Place(String placeTitle, String info, String location) {
+    @ColumnInfo(name = "urlLocation")
+    private String urlLocation;
+
+    public Place(String placeTitle, String info, String location, String urlLocation) {
         this.placeTitle = placeTitle;
         this.info = info;
         this.location = location;
+        this.urlLocation = urlLocation;
     }
 
     public Integer getId() {
@@ -57,6 +61,14 @@ public class Place {
 
     public void setLocation(String location) {
         this.location = location;
+    }
+
+    public String getUrlLocation() {
+        return urlLocation;
+    }
+
+    public void setUrlLocation(String urlLocation) {
+        this.urlLocation = urlLocation;
     }
 }
 

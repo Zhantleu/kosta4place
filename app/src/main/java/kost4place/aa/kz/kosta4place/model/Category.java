@@ -27,5 +27,4 @@ public class Category {
     public void setCategoryTitle(String categoryTitle) {
         this.categoryTitle = categoryTitle;
     }
-
 }

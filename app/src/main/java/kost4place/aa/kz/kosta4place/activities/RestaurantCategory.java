@@ -10,7 +10,6 @@ import java.util.List;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
-import kost4place.aa.kz.kosta4place.R;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
 import kost4place.aa.kz.kosta4place.model.Place;
 import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
@@ -39,7 +38,8 @@ public class RestaurantCategory extends AppCompatActivity {
         compositeDisposable.add(placeRepository.getPlaces(getApplicationContext())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .doOnNext(this::displayData).subscribe());
+                .doOnNext(this::displayData)
+                .subscribe());
     }
 
     private void displayData(List<Place> places) {

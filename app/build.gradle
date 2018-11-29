@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
+
     defaultConfig {
         applicationId "kost4place.aa.kz.kosta4place"
         minSdkVersion 21

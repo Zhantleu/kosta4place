@@ -4,42 +4,44 @@ ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidMani
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9133b44bcd37b3e708c0ba30aca1d6e6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46979250fac880b662f51fbf8474a37d\AndroidManifest.xml:17:1-22:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\5a4e296e0a9ef0c48fcbecc7ee68b78a\AndroidManifest.xml:15:1-21:12
-MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\a2c77a8cf2c5cafa23399e52f66112c7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5511d978fea7897a698f27c5a2ed9715\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fde0dbf2a7e7dcc2bdf973a101ce4d5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2a882cf2d987c515292ce9443cc797a3\AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3f2a1b8c446ebbb77cc7b952c401f786\AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4c36b4a1049dc2d83a055be68ee71de3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\58fde150f4e37d54a2be4c422ba3b0d6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2792f7cd0b91f853989f898a9b86fe55\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\79c140dd20a881361ca457c27b84da0e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\49b9d6ad4512e6f5d1c3d83b3669f32f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6007e57a829161db53cf8112093eadde\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\422472b590a90fd8d547711db5a648d1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b4d3231a9e1695f7d7dda1998f0fb0fa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c4a7ab1da4e718ab2bce7dbeb548a460\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\0e2705c4f40d703166611c6298b09d6e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7fa0eefd93d37054edc07b8b981cda0a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\2416468059b29fc976623f9762b6ef35\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f53a00c74fdfdda670c0c149abb6e07e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\15992cb86bde9b46e42427d54e665f83\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea3f33af9cc6f87360d99ea4c616fa5c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\485d0d44c950e1a37e8b6ef5a73c48d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\263a2ec74139ed6c20f3eaecfcd1a124\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a043b2d9b06d5f7c2f0764efb2ebc438\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\9b92c106fc383414ac44de840df78345\AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\4268b6de6d5d600481304e51cd822fed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6f5638ae8dbc0e317cfd34b50eab7cc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8aa84e23cd5a3408d166426b90464460\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30f905a96138c17cc8a8ce482dd769fb\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\130fddd7f6f57157eae07afc05f5f637\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d6302b73f9c1fd61dd2ad1a2bd52c44f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5a24b273e98cf4170176412b18d35259\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\68916b568cb55c1a1d5ee42f312db926\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2520785b16f82be55f8f382765eef8d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3cc958dcb563cd27cb7312e5040930ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a612323a4f1da5e361cdd1306a089eb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b3749cab5140c1b11ef595915a2d143\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5831383ee9c1349599f3b5a0fab47e8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6466f34cab08ebfa5b9c5edc1a0fd488\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\ef553804118fc376e327ee26bf0c4d12\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7a5d411e8eaeeef3ad20dfa809eeaa9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\a2d2c71f8f80e2f4c4402726cccea388\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6e55612dd24fbf271621aee685981335\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8638cb749cd14b24140845bf6185953b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4cf152f5d04a7fa6bff9aaa800d4d9bf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fe050498ea1c3fc3009e98bda3f6990f\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:3:5-43
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:4:5-54
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:1-30:12
@@ -47,113 +49,109 @@ INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidM
 	xmlns:android
 		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:7:5-28:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2a882cf2d987c515292ce9443cc797a3\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2a882cf2d987c515292ce9443cc797a3\AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:7:5-12:19
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:10:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30f905a96138c17cc8a8ce482dd769fb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30f905a96138c17cc8a8ce482dd769fb\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:7:5-12:19
 	android:supportsRtl
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:10:9-41
-	android:roundIcon
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:13:9-41
+	tools:ignore
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:16:9-48
 	android:icon
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:15:9-40
 activity#kost4place.aa.kz.kosta4place.activities.HomePage
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:14:9-21:20
-	android:screenOrientation
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:15:13-49
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:label
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:14:19-54
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:19:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:23:27-74
 activity#kost4place.aa.kz.kosta4place.activities.RestaurantCategory
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:22:9-23:51
-	android:screenOrientation
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:23:13-49
+ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:26:9-56
 	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:22:19-64
-activity#kost4place.aa.kz.kosta4place.activities.AboutPlace
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:25:9-26:61
-	android:screenOrientation
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:26:13-49
-	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:25:19-56
-activity#kost4place.aa.kz.kosta4place.activities.ExampleActivity
-ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:27:9-64
-	android:name
-		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:27:19-61
+		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml:26:19-53
 uses-sdk
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9133b44bcd37b3e708c0ba30aca1d6e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9133b44bcd37b3e708c0ba30aca1d6e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46979250fac880b662f51fbf8474a37d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46979250fac880b662f51fbf8474a37d\AndroidManifest.xml:20:5-44
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\5a4e296e0a9ef0c48fcbecc7ee68b78a\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\5a4e296e0a9ef0c48fcbecc7ee68b78a\AndroidManifest.xml:19:5-43
-MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\a2c77a8cf2c5cafa23399e52f66112c7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\a2c77a8cf2c5cafa23399e52f66112c7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5511d978fea7897a698f27c5a2ed9715\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5511d978fea7897a698f27c5a2ed9715\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fde0dbf2a7e7dcc2bdf973a101ce4d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fde0dbf2a7e7dcc2bdf973a101ce4d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2a882cf2d987c515292ce9443cc797a3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2a882cf2d987c515292ce9443cc797a3\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3f2a1b8c446ebbb77cc7b952c401f786\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3f2a1b8c446ebbb77cc7b952c401f786\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4c36b4a1049dc2d83a055be68ee71de3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4c36b4a1049dc2d83a055be68ee71de3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\58fde150f4e37d54a2be4c422ba3b0d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\58fde150f4e37d54a2be4c422ba3b0d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2792f7cd0b91f853989f898a9b86fe55\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2792f7cd0b91f853989f898a9b86fe55\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\79c140dd20a881361ca457c27b84da0e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\79c140dd20a881361ca457c27b84da0e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\49b9d6ad4512e6f5d1c3d83b3669f32f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\49b9d6ad4512e6f5d1c3d83b3669f32f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6007e57a829161db53cf8112093eadde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6007e57a829161db53cf8112093eadde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\422472b590a90fd8d547711db5a648d1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\422472b590a90fd8d547711db5a648d1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b4d3231a9e1695f7d7dda1998f0fb0fa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b4d3231a9e1695f7d7dda1998f0fb0fa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c4a7ab1da4e718ab2bce7dbeb548a460\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c4a7ab1da4e718ab2bce7dbeb548a460\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\0e2705c4f40d703166611c6298b09d6e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\0e2705c4f40d703166611c6298b09d6e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7fa0eefd93d37054edc07b8b981cda0a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7fa0eefd93d37054edc07b8b981cda0a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\2416468059b29fc976623f9762b6ef35\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\2416468059b29fc976623f9762b6ef35\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f53a00c74fdfdda670c0c149abb6e07e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f53a00c74fdfdda670c0c149abb6e07e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\15992cb86bde9b46e42427d54e665f83\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\15992cb86bde9b46e42427d54e665f83\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea3f33af9cc6f87360d99ea4c616fa5c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea3f33af9cc6f87360d99ea4c616fa5c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\485d0d44c950e1a37e8b6ef5a73c48d0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\485d0d44c950e1a37e8b6ef5a73c48d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\263a2ec74139ed6c20f3eaecfcd1a124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\263a2ec74139ed6c20f3eaecfcd1a124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a043b2d9b06d5f7c2f0764efb2ebc438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a043b2d9b06d5f7c2f0764efb2ebc438\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\9b92c106fc383414ac44de840df78345\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\9b92c106fc383414ac44de840df78345\AndroidManifest.xml:19:5-43
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\4268b6de6d5d600481304e51cd822fed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\4268b6de6d5d600481304e51cd822fed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6f5638ae8dbc0e317cfd34b50eab7cc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6f5638ae8dbc0e317cfd34b50eab7cc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8aa84e23cd5a3408d166426b90464460\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8aa84e23cd5a3408d166426b90464460\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30f905a96138c17cc8a8ce482dd769fb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30f905a96138c17cc8a8ce482dd769fb\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\130fddd7f6f57157eae07afc05f5f637\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\130fddd7f6f57157eae07afc05f5f637\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d6302b73f9c1fd61dd2ad1a2bd52c44f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d6302b73f9c1fd61dd2ad1a2bd52c44f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5a24b273e98cf4170176412b18d35259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5a24b273e98cf4170176412b18d35259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\68916b568cb55c1a1d5ee42f312db926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\68916b568cb55c1a1d5ee42f312db926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2520785b16f82be55f8f382765eef8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2520785b16f82be55f8f382765eef8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3cc958dcb563cd27cb7312e5040930ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3cc958dcb563cd27cb7312e5040930ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a612323a4f1da5e361cdd1306a089eb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a612323a4f1da5e361cdd1306a089eb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b3749cab5140c1b11ef595915a2d143\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b3749cab5140c1b11ef595915a2d143\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5831383ee9c1349599f3b5a0fab47e8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5831383ee9c1349599f3b5a0fab47e8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6466f34cab08ebfa5b9c5edc1a0fd488\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6466f34cab08ebfa5b9c5edc1a0fd488\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\ef553804118fc376e327ee26bf0c4d12\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\ef553804118fc376e327ee26bf0c4d12\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7a5d411e8eaeeef3ad20dfa809eeaa9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\7a5d411e8eaeeef3ad20dfa809eeaa9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\a2d2c71f8f80e2f4c4402726cccea388\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\a2d2c71f8f80e2f4c4402726cccea388\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6e55612dd24fbf271621aee685981335\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6e55612dd24fbf271621aee685981335\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8638cb749cd14b24140845bf6185953b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8638cb749cd14b24140845bf6185953b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4cf152f5d04a7fa6bff9aaa800d4d9bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4cf152f5d04a7fa6bff9aaa800d4d9bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fe050498ea1c3fc3009e98bda3f6990f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fe050498ea1c3fc3009e98bda3f6990f\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -165,10 +163,10 @@ INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidM
 		ADDED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Aydos\Desktop\resources\kosta4place\app\src\main\AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\54f3e474aa8c23994d8cdd5e96556f1c\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aydos\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7632748e0b8a4140c3a1ba5cd6606a0a\AndroidManifest.xml:9:13-64

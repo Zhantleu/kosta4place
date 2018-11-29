@@ -1,16 +1,14 @@
 <resources>
-    <string name="app_name">Kosta4Place</string>
-    <string name="restaurant">Restaurant</string>
-    <string name="cafe">Cafe</string>
-    <string name="shops">Shops</string>
-    <string name="spa">Spa</string>
-    <string name="hostel">Hostel</string>
-    <string name="hookah">Hookah</string>
+  <string name="app_name">Kosta4Place</string>
+  <string name="restaurant">Restaurant</string>
+  <string name="cafe">Cafe</string>
+  <string name="shops">Shops</string>
+  <string name="spa">Spa</string>
+  <string name="hostel">Hostel</string>
+  <string name="hookah">Hookah</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="tab_1">TAB 1</string>
-    <string name="aaaaaa">aaaaaa</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
