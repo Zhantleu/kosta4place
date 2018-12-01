@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a043b2d9b06d5f7c2f0764efb2ebc438\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\8b3749cab5140c1b11ef595915a2d143\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\422472b590a90fd8d547711db5a648d1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46979250fac880b662f51fbf8474a37d\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

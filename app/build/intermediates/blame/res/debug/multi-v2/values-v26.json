@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Aydos\\Desktop\\resources\\kosta4place\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\263a2ec74139ed6c20f3eaecfcd1a124\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\9133b44bcd37b3e708c0ba30aca1d6e6\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a043b2d9b06d5f7c2f0764efb2ebc438\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Aydos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46979250fac880b662f51fbf8474a37d\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
