@@ -16,6 +16,10 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 animator design_appbar_state_list_animator
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -818,6 +822,7 @@ drawable shop
 drawable spa
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font rochester
 id ALT
 id CTRL
 id FUNCTION
@@ -863,6 +868,7 @@ id button6
 id buttonPanel
 id button_restaurant
 id cancel_action
+id card_restaurant
 id center
 id center_horizontal
 id center_vertical
@@ -1143,6 +1149,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string restaurant
+string restaurantList
 string search_menu_title
 string shops
 string spa

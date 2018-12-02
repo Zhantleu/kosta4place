@@ -3,13 +3,13 @@ package kost4place.aa.kz.kosta4place.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.ImageView;
 
 public class HomePage extends AppCompatActivity implements View.OnClickListener {
 
-    private ImageView mBtnRestaurant;
-    private ImageView test;
+    private CardView mCrdrestaurant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +18,13 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
 
         init();
 
-        mBtnRestaurant.setOnClickListener(this);
-        test.setOnClickListener(this);
+        mCrdrestaurant.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.button_restaurant:
+            case R.id.card_restaurant:
                 Intent intent = new Intent(this, RestaurantCategory.class);
                 startActivity(intent);
                 break;
@@ -36,7 +35,6 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
 
 
     private void init() {
-        mBtnRestaurant = findViewById(R.id.button_restaurant);
-        test = findViewById(R.id.testbut);
+        mCrdrestaurant = findViewById(R.id.card_restaurant);
     }
 }

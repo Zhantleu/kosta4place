@@ -1,9 +1,7 @@
 package kost4place.aa.kz.kosta4place.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -13,8 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
-import com.bumptech.glide.request.target.SimpleTarget;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -25,8 +21,8 @@ import kost4place.aa.kz.kosta4place.activities.R;
 import kost4place.aa.kz.kosta4place.model.Place;
 
 public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
-    Context context;
-    List<Place> postList;
+    private Context context;
+    private List<Place> postList;
 
     public PostAdapter(Context context, List<Place> postList) {
         this.context = context;
@@ -43,19 +39,13 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
-//        holder.txt_location.setText(String.valueOf(postList.get(position).getLocation()));
         holder.txt_title.setText(String.valueOf(postList.get(position).getPlaceTitle()));
 
         Glide.with(context)
                 .load("http://3.120.172.55:8080/api-1.0-SNAPSHOT/image/" + postList.get(position).getUrlLocation())
                 .asBitmap()
-                .override(300,200)
+                .override(200, 200)
                 .into(holder.placeImage);
-
-//        holder.placeImage.setImageBitmap(String.valueOf(postList.get(position).getPlaceTitle()));
-
-//        holder.txt_content.setText(new StringBuilder(postList.get(position).getInfo().substring(0, 20)).append("...").toString());
-//        holder.txt_content.setText(new StringBuilder(postList.get(position).getInfo()));
     }
 
     @Override
