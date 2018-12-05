@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -34,6 +35,11 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
     public PostViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.post_layout, parent, false);
+
+        view.setAnimation(AnimationUtils.loadAnimation(context,
+                R.anim.item_animation_fall_down));
+        view.setVisibility(View.VISIBLE);
+
         return new PostViewHolder(view);
     }
 

@@ -15,6 +15,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim item_animation_fall_down
+anim layout_animation_fall_down
 animator design_appbar_state_list_animator
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
