@@ -900,6 +900,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id exampleText
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -946,6 +947,7 @@ id packed
 id parallax
 id parent
 id parentPanel
+id parent_layout
 id parent_matrix
 id percent
 id pin
@@ -1072,6 +1074,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_restaurant_category
+layout common_place_info
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

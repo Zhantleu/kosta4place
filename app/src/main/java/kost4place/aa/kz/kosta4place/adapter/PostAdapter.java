@@ -1,10 +1,12 @@
 package kost4place.aa.kz.kosta4place.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,10 +20,13 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.List;
 
+import kost4place.aa.kz.kosta4place.activities.AboutPlace;
 import kost4place.aa.kz.kosta4place.activities.R;
 import kost4place.aa.kz.kosta4place.model.Place;
 
 public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
+    private static final String TAG = "RecycleViewAdapter";
+
     private Context context;
     private List<Place> postList;
 
@@ -45,13 +50,27 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
-        holder.txt_title.setText(String.valueOf(postList.get(position).getPlaceTitle()));
+        Log.d(TAG, "onBindViewHolder: called");
 
         Glide.with(context)
                 .load("http://3.120.172.55:8080/api-1.0-SNAPSHOT/image/" + postList.get(position).getUrlLocation())
                 .asBitmap()
                 .override(200, 200)
-                .into(holder.placeImage);
+                .into(holder.getPlaceImage());
+
+        holder.getTxtTitle().setText(postList.get(position).getPlaceTitle());
+
+        holder.getParentLayout().setOnClickListener(view -> {
+            Log.d(TAG, "onClick: clicked on: " + postList.get(position));
+
+            Toast.makeText(context, postList.get(position).getPlaceTitle(), Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(context, AboutPlace.class);
+            intent.putExtra("image_url", postList.get(position).getUrlLocation());
+
+            context.startActivity(intent);
+        });
+
     }
 
     @Override
