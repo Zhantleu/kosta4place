@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RestaurantCategory" />
+        <activity android:name=".CategoryPage" />
         <activity android:name=".AboutPlace" />
 
         <meta-data

@@ -870,6 +870,7 @@ id button6
 id buttonPanel
 id button_restaurant
 id cancel_action
+id card_cafe
 id card_restaurant
 id center
 id center_horizontal

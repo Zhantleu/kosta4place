@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context="kost4place.aa.kz.kosta4place.activities.RestaurantCategory">
+    tools:context="kost4place.aa.kz.kosta4place.activities.CategoryPage">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_posts"

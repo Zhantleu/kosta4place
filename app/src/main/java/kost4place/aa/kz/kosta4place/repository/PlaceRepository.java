@@ -24,9 +24,9 @@ public class PlaceRepository {
         kostaApi = retrofit.create(KostaApi.class);
     }
 
-    public Observable<List<Place>> getPlaces(Context context) {
+    public Observable<List<Place>> getPlaces(Context context,String category) {
         return Observable.mergeDelayError(
-                getPlacesFromApi(context)
+                getPlacesFromApi(context,category)
                         .doOnNext(places -> PlaceORM.getInstance(context).insert(places)).subscribeOn(Schedulers.io()),
                 getPlacesFromDb(context).subscribeOn(Schedulers.io()));
 
@@ -39,11 +39,9 @@ public class PlaceRepository {
                 .doOnNext(places -> Log.d("from cache", String.valueOf(places.size())));
     }
 
-    private Observable<List<Place>> getPlacesFromApi(Context context) {
-        return kostaApi.getPlace()
-                .doOnNext(places -> {
-                    storePlacesInDb(places, context);
-                });
+    private Observable<List<Place>> getPlacesFromApi(Context context, String category) {
+        return kostaApi.getPlacesByCategory(category)
+                .doOnNext(places -> storePlacesInDb(places, context));
     }
 
     @SuppressLint("CheckResult")

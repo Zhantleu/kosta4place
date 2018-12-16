@@ -60,6 +60,11 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
 
         holder.getTxtTitle().setText(postList.get(position).getPlaceTitle());
 
+        selectionItem(holder, position);
+
+    }
+
+    private void selectionItem(@NonNull PostViewHolder holder, int position) {
         holder.getParentLayout().setOnClickListener(view -> {
             Log.d(TAG, "onClick: clicked on: " + postList.get(position));
 
@@ -70,7 +75,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
 
             context.startActivity(intent);
         });
-
     }
 
     @Override
@@ -78,30 +82,32 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
         return postList.size();
     }
 
-    private String saveImage(Bitmap image) {
-        String savedImagePath = null;
+    /*
+     private String saveImage(Bitmap image) {
+     String savedImagePath = null;
 
-        String imageFileName = "JPEG_" + "FILE_NAME" + ".jpg";
-        File storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
-                + "/YOUR_FOLDER_NAME");
-        boolean success = true;
-        if (!storageDir.exists()) {
-            success = storageDir.mkdirs();
-        }
-        if (success) {
-            File imageFile = new File(storageDir, imageFileName);
-            savedImagePath = imageFile.getAbsolutePath();
-            try {
-                OutputStream fOut = new FileOutputStream(imageFile);
-                image.compress(Bitmap.CompressFormat.JPEG, 100, fOut);
-                fOut.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+     String imageFileName = "JPEG_" + "FILE_NAME" + ".jpg";
+     File storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
+     + "/YOUR_FOLDER_NAME");
+     boolean success = true;
+     if (!storageDir.exists()) {
+     success = storageDir.mkdirs();
+     }
+     if (success) {
+     File imageFile = new File(storageDir, imageFileName);
+     savedImagePath = imageFile.getAbsolutePath();
+     try {
+     OutputStream fOut = new FileOutputStream(imageFile);
+     image.compress(Bitmap.CompressFormat.JPEG, 100, fOut);
+     fOut.close();
+     } catch (Exception e) {
+     e.printStackTrace();
+     }
 
-            // Add the image to the system gallery
-            Toast.makeText(context, "IMAGE SAVED", Toast.LENGTH_LONG).show();
-        }
-        return savedImagePath;
-    }
+     // Add the image to the system gallery
+     Toast.makeText(context, "IMAGE SAVED", Toast.LENGTH_LONG).show();
+     }
+     return savedImagePath;
+     }
+     */
 }

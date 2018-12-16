@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 import java.util.List;
@@ -15,8 +16,10 @@ import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
 import kost4place.aa.kz.kosta4place.model.Place;
 import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
 
-public class RestaurantCategory extends AppCompatActivity {
+public class CategoryPage extends AppCompatActivity {
 
+    private static String category;
+    private static final String TAG = "CategoryPage";
     private RecyclerView recyclerView_posts;
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
     private PlaceRepository placeRepository = new PlaceRepository();
@@ -25,6 +28,8 @@ public class RestaurantCategory extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant_category);
+
+        getIncomingIntent();
 
         //View
         recyclerView_posts = findViewById(R.id.recycler_posts);
@@ -36,7 +41,7 @@ public class RestaurantCategory extends AppCompatActivity {
 
     //Error when the activity try to get a information without API
     private void fetchData() {
-        compositeDisposable.add(placeRepository.getPlaces(getApplicationContext())
+        compositeDisposable.add(placeRepository.getPlaces(getApplicationContext(), category)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .doOnNext(this::displayData)
@@ -46,6 +51,16 @@ public class RestaurantCategory extends AppCompatActivity {
     private void displayData(List<Place> places) {
         PostAdapter adapter = new PostAdapter(this, places);
         recyclerView_posts.setAdapter(adapter);
+    }
+
+    private void getIncomingIntent() {
+        Log.d(TAG, "getIncomingIntent: checking for incoming intents.");
+
+        if (getIntent().hasExtra("category")) {
+            Log.d(TAG, "getIncomingIntent: found intent extras.");
+
+            category = getIntent().getStringExtra("category");
+        }
     }
 
     @Override
