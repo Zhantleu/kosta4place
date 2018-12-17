@@ -14,6 +14,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
 import kost4place.aa.kz.kosta4place.model.Place;
+import kost4place.aa.kz.kosta4place.model.PlaceWithCategory;
 import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
 
 public class CategoryPage extends AppCompatActivity {
@@ -48,9 +49,11 @@ public class CategoryPage extends AppCompatActivity {
                 .subscribe());
     }
 
-    private void displayData(List<Place> places) {
-        PostAdapter adapter = new PostAdapter(this, places);
-        recyclerView_posts.setAdapter(adapter);
+    private void displayData(List<PlaceWithCategory> placeWithCategories) {
+        for (PlaceWithCategory placeWithCategory : placeWithCategories) {
+            PostAdapter adapter = new PostAdapter(this, placeWithCategory.places);
+            recyclerView_posts.setAdapter(adapter);
+        }
     }
 
     private void getIncomingIntent() {

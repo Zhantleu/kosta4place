@@ -1,16 +1,29 @@
 package kost4place.aa.kz.kosta4place.model;
 
-import com.google.gson.annotations.Expose;
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+
 import com.google.gson.annotations.SerializedName;
 
-public class Category {
+import io.reactivex.annotations.NonNull;
 
+@Entity(tableName = "categories")
+public class Category {
+    @NonNull
+    @ColumnInfo(name = "id")
+    @PrimaryKey(autoGenerate = true)
     @SerializedName("id")
-    @Expose
     private Integer id;
+
+    @ColumnInfo(name = "category_title")
     @SerializedName("categoryTitle")
-    @Expose
     private String categoryTitle;
+
+    public Category(Integer id, String categoryTitle) {
+        this.id = id;
+        this.categoryTitle = categoryTitle;
+    }
 
     public Integer getId() {
         return id;
@@ -26,5 +39,13 @@ public class Category {
 
     public void setCategoryTitle(String categoryTitle) {
         this.categoryTitle = categoryTitle;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", categoryTitle='" + categoryTitle + '\'' +
+                '}';
     }
 }
