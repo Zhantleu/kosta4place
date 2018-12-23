@@ -5,35 +5,38 @@ import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Transaction;
+import android.util.Log;
 
 import java.util.List;
 
 import io.reactivex.Flowable;
 
-import io.reactivex.Maybe;
-import kost4place.aa.kz.kosta4place.model.Category;
-import kost4place.aa.kz.kosta4place.model.Place;
-import kost4place.aa.kz.kosta4place.model.PlaceWithCategory;
+import kost4place.aa.kz.kosta4place.local.model.LocalCategory;
+import kost4place.aa.kz.kosta4place.local.model.LocalPlace;
+import kost4place.aa.kz.kosta4place.local.model.PlaceWithCategory;
 
 @Dao
 public abstract class PlaceDao {
-    @Transaction @Query("SELECT * FROM categories WHERE id =:placeId")
-    public abstract Flowable<List<PlaceWithCategory>> getPlaceBy(String placeId);
+    private static final String TAG = "PlaceDao";
 
     @Transaction
-    public void insert(List<PlaceWithCategory> placeWithCategories) {
+    @Query("SELECT * FROM places WHERE categoryId =:categoryId")
+    public abstract Flowable<List<LocalPlace>> getPlaceBy(String categoryId);
+
+//    @Transaction
+//    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    public void insertPlaceWithCategory(List<PlaceWithCategory> placeWithCategories) {
+        Log.d(TAG, "insertPlaceWithCategory: " + placeWithCategories);
         for (PlaceWithCategory placeWithCategory : placeWithCategories) {
-            insert(placeWithCategory.category);
-            for (Place place : placeWithCategory.places) {
-                insert(place);
-            }
+            insertLocalCategory(placeWithCategory.localCategory);
+            insertLocalPlace(placeWithCategory.localPlaces);
         }
     }
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    public abstract void insert(Place place);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    public abstract void insertLocalPlace(List<LocalPlace> localPlace);
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    public abstract void insert(Category category);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    public abstract void insertLocalCategory(LocalCategory localCategory);
 
 }

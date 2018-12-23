@@ -2,8 +2,6 @@ package kost4place.aa.kz.kosta4place.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -15,22 +13,19 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
 import java.util.List;
 
 import kost4place.aa.kz.kosta4place.activities.AboutPlace;
 import kost4place.aa.kz.kosta4place.activities.R;
-import kost4place.aa.kz.kosta4place.model.Place;
+import kost4place.aa.kz.kosta4place.local.model.LocalPlace;
 
 public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
     private static final String TAG = "RecycleViewAdapter";
 
     private Context context;
-    private List<Place> postList;
+    private List<LocalPlace> postList;
 
-    public PostAdapter(Context context, List<Place> postList) {
+    public PostAdapter(Context context, List<LocalPlace> postList) {
         this.context = context;
         this.postList = postList;
     }

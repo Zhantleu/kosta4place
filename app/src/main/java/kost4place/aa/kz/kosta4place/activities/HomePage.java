@@ -28,12 +28,12 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
         switch (view.getId()) {
             case R.id.card_restaurant:
                 intent = new Intent(this, CategoryPage.class);
-                intent.putExtra("category", "restaurant");
+                intent.putExtra("localCategory", "restaurant");
                 startActivity(intent);
                 break;
             case R.id.card_cafe:
                 intent = new Intent(this, CategoryPage.class);
-                intent.putExtra("category", "cafe");
+                intent.putExtra("localCategory", "cafe");
                 startActivity(intent);
             default:
                 break;

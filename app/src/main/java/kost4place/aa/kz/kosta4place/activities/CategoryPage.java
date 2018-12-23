@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
 
 import java.util.List;
 
@@ -13,8 +12,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
-import kost4place.aa.kz.kosta4place.model.Place;
-import kost4place.aa.kz.kosta4place.model.PlaceWithCategory;
+import kost4place.aa.kz.kosta4place.local.model.PlaceWithCategory;
 import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
 
 public class CategoryPage extends AppCompatActivity {
@@ -45,13 +43,15 @@ public class CategoryPage extends AppCompatActivity {
         compositeDisposable.add(placeRepository.getPlaces(getApplicationContext(), category)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .doOnNext(this::displayData)
-                .subscribe());
+                .subscribe(placeWithCategories -> {
+                    Log.d(TAG, "fetchData: " + placeWithCategories);
+                    displayData(placeWithCategories);
+                }));
     }
 
     private void displayData(List<PlaceWithCategory> placeWithCategories) {
         for (PlaceWithCategory placeWithCategory : placeWithCategories) {
-            PostAdapter adapter = new PostAdapter(this, placeWithCategory.places);
+            PostAdapter adapter = new PostAdapter(this, placeWithCategory.localPlaces);
             recyclerView_posts.setAdapter(adapter);
         }
     }
@@ -59,10 +59,10 @@ public class CategoryPage extends AppCompatActivity {
     private void getIncomingIntent() {
         Log.d(TAG, "getIncomingIntent: checking for incoming intents.");
 
-        if (getIntent().hasExtra("category")) {
+        if (getIntent().hasExtra("localCategory")) {
             Log.d(TAG, "getIncomingIntent: found intent extras.");
 
-            category = getIntent().getStringExtra("category");
+            category = getIntent().getStringExtra("localCategory");
         }
     }
 
