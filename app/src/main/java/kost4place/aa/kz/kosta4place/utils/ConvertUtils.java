@@ -37,7 +37,18 @@ public class ConvertUtils {
 
     public static List<PlaceWithCategory> returnPlaceWithCategory(List<LocalPlace> localPlace) {
         List<PlaceWithCategory> placeWithCategories = new ArrayList<>();
-        placeWithCategories.add(new PlaceWithCategory(new LocalCategory(),localPlace));
+
+        placeWithCategories.add(new PlaceWithCategory(new LocalCategory(), localPlace));
+
         return placeWithCategories;
+    }
+
+    public static List<LocalPlace> returnLocalFromPlaceWithCategory(List<PlaceWithCategory> placeWithCategories) {
+        List<LocalPlace> localPlaces = new ArrayList<>();
+        for (PlaceWithCategory placeWithCategory : placeWithCategories) {
+            localPlaces.addAll(placeWithCategory.localPlaces);
+        }
+
+        return localPlaces;
     }
 }

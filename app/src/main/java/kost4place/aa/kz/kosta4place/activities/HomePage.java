@@ -33,7 +33,7 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
                 break;
             case R.id.card_cafe:
                 intent = new Intent(this, CategoryPage.class);
-                intent.putExtra("localCategory", "cafe");
+                intent.putExtra("localCategory", "1");
                 startActivity(intent);
             default:
                 break;

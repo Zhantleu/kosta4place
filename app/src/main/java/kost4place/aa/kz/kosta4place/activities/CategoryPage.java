@@ -6,12 +6,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
 import kost4place.aa.kz.kosta4place.adapter.PostAdapter;
+import kost4place.aa.kz.kosta4place.local.model.LocalPlace;
 import kost4place.aa.kz.kosta4place.local.model.PlaceWithCategory;
 import kost4place.aa.kz.kosta4place.repository.PlaceRepository;
 
@@ -49,11 +51,9 @@ public class CategoryPage extends AppCompatActivity {
                 }));
     }
 
-    private void displayData(List<PlaceWithCategory> placeWithCategories) {
-        for (PlaceWithCategory placeWithCategory : placeWithCategories) {
-            PostAdapter adapter = new PostAdapter(this, placeWithCategory.localPlaces);
-            recyclerView_posts.setAdapter(adapter);
-        }
+    private void displayData(List<LocalPlace> placeWithCategories) {
+        PostAdapter adapter = new PostAdapter(this, placeWithCategories);
+        recyclerView_posts.setAdapter(adapter);
     }
 
     private void getIncomingIntent() {
@@ -79,3 +79,16 @@ public class CategoryPage extends AppCompatActivity {
         super.onPause();
     }
 }
+
+
+/**
+ * private void fetchData() {
+ * compositeDisposable.add(placeRepository.getPlaces(getApplicationContext(), category)
+ * .subscribeOn(Schedulers.io())
+ * .observeOn(AndroidSchedulers.mainThread())
+ * .subscribe(placeWithCategories -> {
+ * Log.d(TAG, "fetchData: " + placeWithCategories);
+ * displayData(placeWithCategories);
+ * }));
+ * }
+ **/

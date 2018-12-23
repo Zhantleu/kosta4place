@@ -18,6 +18,7 @@ import java.util.List;
 import kost4place.aa.kz.kosta4place.activities.AboutPlace;
 import kost4place.aa.kz.kosta4place.activities.R;
 import kost4place.aa.kz.kosta4place.local.model.LocalPlace;
+import kost4place.aa.kz.kosta4place.local.model.PlaceWithCategory;
 
 public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
     private static final String TAG = "RecycleViewAdapter";
@@ -56,7 +57,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
         holder.getTxtTitle().setText(postList.get(position).getPlaceTitle());
 
         selectionItem(holder, position);
-
     }
 
     private void selectionItem(@NonNull PostViewHolder holder, int position) {
